@@ -1,4 +1,4 @@
-# Offensive Security Certified Professional (OSCP) Guide
+# Offensive Security Certified Professional (OSCP) Journey
 -----------
 
 - I will be using github [project](https://github.com/austinsonger/OSCP-Prep/projects/1) to track my process as I prepare for the OSCP.
