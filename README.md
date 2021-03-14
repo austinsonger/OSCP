@@ -83,12 +83,12 @@
 | **Hackme 1:  https://www.vulnhub.com/entry/hackme-1,330/**   | **W34kn3ss 1:  https://www.vulnhub.com/entry/w34kn3ss-1,270/** |                                                              
 | **Escalate_Linux: 1:  https://www.vulnhub.com/entry/escalate_linux-1,323/** | **GoldenEye 1:  https://www.vulnhub.com/entry/goldeneye-1,240/** |                                                              |
 | **DC 6:  https://www.vulnhub.com/entry/dc-6,315/**           | **Infosec Prep OSCP  Box: https://www.vulnhub.com/entry/infosec-prep-oscp,508/** |                                                              |
-|                                                              | **LemonSqueezy:  https://www.vulnhub.com/entry/lemonsqueezy-1,473/** |                                                              
-|                                                              | **Brainpan 1:  https://www.vulnhub.com/entry/brainpan-1,51/** |                                                              
-|                                                              | **Pinkys Palace v1:  https://www.vulnhub.com/entry/pinkys-palace-v1,225/** |                                                              
-|                                                              | **Lord of the root  1.0.1: https://www.vulnhub.com/entry/lord-of-the-root-101,129/** |                                                              |
-|                                                              | **Tiki-1:  https://www.vulnhub.com/entry/tiki-1,525/**       |                                                              
-|                                                              | **Healthcare 1:  https://www.vulnhub.com/entry/healthcare-1,522/** |                                                              
-|                                                              | **Photographer 1:  https://www.vulnhub.com/entry/photographer-1,519/** |                                                              
-|                                                              | **Glasglow 1.1:  https://www.vulnhub.com/entry/glasgow-smile-11,491/** |                                                              
-|                                                              |                                                              |                                                              
+|                                                              | **LemonSqueezy:**  https://www.vulnhub.com/entry/lemonsqueezy-1,473/ |                                                              
+|                                                              | **Brainpan 1:**  https://www.vulnhub.com/entry/brainpan-1,51/ |                                                              
+|                                                              | **Pinkys Palace v1:**  https://www.vulnhub.com/entry/pinkys-palace-v1,225/ |                                                              
+|                                                              | **Lord of the root  1.0.1:** https://www.vulnhub.com/entry/lord-of-the-root-101,129/ |                                                              |
+|                                                              | **Tiki-1:**  https://www.vulnhub.com/entry/tiki-1,525/       |                                                              
+|                                                              | **Healthcare 1:**  https://www.vulnhub.com/entry/healthcare-1,522/ |                                                              
+|                                                              | **Photographer 1:**  https://www.vulnhub.com/entry/photographer-1,519/ |                                                              
+|                                                              | **Glasglow 1.1:**  https://www.vulnhub.com/entry/glasgow-smile-11,491/ |                                                              
+                                                              
