@@ -6,6 +6,47 @@ Taking OSCP in July 2021.
 - I will be using github [project](https://github.com/austinsonger/OSCP-Prep/projects/1) to track my process as I prepare for the OSCP.
 - There is a [issue](https://github.com/austinsonger/OSCP-Prep/issues) created for every subsection for all of the sections below.
 
+## Schedule
+
+### April
+
+#### 3rd Thru 4th
+- 4 Machines
+  - DC 9
+  - Digitalworld.local (Development)
+  - Digitalworld.local (Mercy v2)
+  - Digitalworld.local (JOY)
+
+#### 10th thru 11th
+- 4 Machines
+  - Prime 1
+  - Symfonos 1
+  - Symfonos 2
+  - Symfonos 3
+
+#### 17th thru 18th
+- 4 Machines
+  - Symfonos 4
+  - Symfonos 5.2
+  - Misdirection 1
+  - Sar 1
+
+#### 24th thru 25th
+- 4 Machines
+  - Djinn 1
+  - EVM 1
+  - DerpNStink 1
+  - RickdiculouslyEasy 1
+
+### May
+> To Be Announced
+
+### June
+> To Be Announced
+
+### July
+> To Be Announced
+
 
 <!--
 ### [Command Line and Tools]()
@@ -57,7 +98,7 @@ Taking OSCP in July 2021.
 
 
 
-
+<!---
 | **List of PWK/OSCP boxes from the previous versions of the course** | **Current Systems that are Simliar to the current PWK/OSCP course** | 
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Kioptrix: Level 1  (#1): https://www.vulnhub.com/entry/kioptrix-level-1-1,22/** | **DC 9:  https://www.vulnhub.com/entry/dc-9,412/**           | 
@@ -95,4 +136,4 @@ Taking OSCP in July 2021.
 |                                                              | **Healthcare 1:**  https://www.vulnhub.com/entry/healthcare-1,522/ |                                                              
 |                                                              | **Photographer 1:**  https://www.vulnhub.com/entry/photographer-1,519/ |                                                              
 |                                                              | **Glasglow 1.1:**  https://www.vulnhub.com/entry/glasgow-smile-11,491/ |                                                              
-                                                              
+--->                                                
