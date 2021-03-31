@@ -6,6 +6,8 @@ Taking OSCP in July 2021.
 - I will be using github [project](https://github.com/austinsonger/OSCP-Prep/projects/1) to track my process as I prepare for the OSCP.
 - There is a [issue](https://github.com/austinsonger/OSCP-Prep/issues) created for every subsection for all of the sections below.
 
+
+<!--
 ### [Command Line and Tools]()
 
 ### [Bash Scripting]()
@@ -47,7 +49,7 @@ Taking OSCP in July 2021.
 ### [PowerShell Empire]()
 
 ### [Assembling the Pieces: Penetration Test Breakdown]()
-
+ -->
 
 
 -----------------
