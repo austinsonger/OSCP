@@ -94,11 +94,10 @@ Taking OSCP in July 2021.
 
 
 -----------------
-# OSCP-Like Vulnhub Boxes
-
-
 
 <!---
+# OSCP-Like Vulnhub Boxes
+
 | **List of PWK/OSCP boxes from the previous versions of the course** | **Current Systems that are Simliar to the current PWK/OSCP course** | 
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Kioptrix: Level 1  (#1): https://www.vulnhub.com/entry/kioptrix-level-1-1,22/** | **DC 9:  https://www.vulnhub.com/entry/dc-9,412/**           | 
