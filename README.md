@@ -4,15 +4,9 @@
 > 
 -----------
 ### Milestones
-- [1](https://github.com/austinsonger/OSCP/milestone/1)
-- [2](https://github.com/austinsonger/OSCP/milestone/2)
-- [3](https://github.com/austinsonger/OSCP/milestone/3)
-- [4](https://github.com/austinsonger/OSCP/milestone/4)
-- [5](https://github.com/austinsonger/OSCP/milestone/5)
-- [6](https://github.com/austinsonger/OSCP/milestone/6)
-- [7](https://github.com/austinsonger/OSCP/milestone/7)
-- [8](https://github.com/austinsonger/OSCP/milestone/8)
-- [9](https://github.com/austinsonger/OSCP/milestone/9)
+|Milestone|Milestone|Milestone|Milestone|Milestone|Milestone|Milestone|Milestone|Milestone|   	
+|---	|---	|---	|---	|---	|---	|---	|---	|---	|
+|[1](https://github.com/austinsonger/OSCP/milestone/1)|[2](https://github.com/austinsonger/OSCP/milestone/2)|[3](https://github.com/austinsonger/OSCP/milestone/3)|[4](https://github.com/austinsonger/OSCP/milestone/4)|[5](https://github.com/austinsonger/OSCP/milestone/5)|[6](https://github.com/austinsonger/OSCP/milestone/6)|[7](https://github.com/austinsonger/OSCP/milestone/7)|[8](https://github.com/austinsonger/OSCP/milestone/8)|[9](https://github.com/austinsonger/OSCP/milestone/9)|   	
 
 -----------
 Taking OSCP in **July 2021**.
