@@ -1,8 +1,18 @@
 # Offensive Security Certified Professional (OSCP) Journey
 -----------
 > It took me a little bit working in the cyber security to realize that Ec-council and CompTIA certifications are pointless in the grand scale of all cyber security certifications. And realized that the only certifications that are worth a damn are [GIAC certifications](https://www.giac.org/) and [Offensive Securtity Certifications](https://www.offensive-security.com/courses-and-certifications/). The only reason a person should work to achieve **CompTIA** or **Ec-council** is if they have aspirations of working for the federal government.
-
-
+> 
+-----------
+### Milestones
+- [1](https://github.com/austinsonger/OSCP/milestone/1)
+- [2](https://github.com/austinsonger/OSCP/milestone/2)
+- [3](https://github.com/austinsonger/OSCP/milestone/3)
+- [4](https://github.com/austinsonger/OSCP/milestone/4)
+- [5](https://github.com/austinsonger/OSCP/milestone/5)
+- [6](https://github.com/austinsonger/OSCP/milestone/6)
+- [7](https://github.com/austinsonger/OSCP/milestone/7)
+- [8](https://github.com/austinsonger/OSCP/milestone/8)
+- [9](https://github.com/austinsonger/OSCP/milestone/9)
 
 -----------
 Taking OSCP in **July 2021**.
