@@ -1,0 +1,8 @@
+# Personal Methodology
+
+
+
+
+
+
+
