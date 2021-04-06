@@ -28,36 +28,37 @@ Taking OSCP in **July 2021**.
 
 ### April
 
-#### 3rd Thru 4th
+#### 10th thru 11th
 - 4 Machines
   - DC 9
   - Digitalworld.local (Development)
   - Digitalworld.local (Mercy v2)
   - Digitalworld.local (JOY)
 
-#### 10th thru 11th
+#### 17th thru 18th
 - 4 Machines
   - Prime 1
   - Symfonos 1
   - Symfonos 2
   - Symfonos 3
 
-#### 17th thru 18th
+#### 24th thru 25th
 - 4 Machines
   - Symfonos 4
   - Symfonos 5.2
   - Misdirection 1
   - Sar 1
 
-#### 24th thru 25th
+### May
+
+#### 1st thru 2nd
 - 4 Machines
   - Djinn 1
   - EVM 1
   - DerpNStink 1
   - RickdiculouslyEasy 1
 
-### May
-> To Be Announced
+
 
 ### June
 > To Be Announced
