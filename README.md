@@ -2,10 +2,15 @@
 -----------
 > It took me a little bit working in the cyber security to realize that Ec-council and CompTIA certifications are pointless in the grand scale of all cyber security certifications. And realized that the only certifications that are worth a damn are [GIAC certifications](https://www.giac.org/) and [Offensive Securtity Certifications](https://www.offensive-security.com/courses-and-certifications/). The only reason a person should work to achieve **CompTIA** or **Ec-council** is if they have aspirations of working for the federal government, been there, done that.
 > 
-**My Goal for my next certifications**
-```
-OSCP > GXPN > OSCE > GREM > OSEE
-```
+-----------
+> I've made this so it could be used as others for trackking their progress.
+
+**Certifications Roadmap for the Rest of my career**
+
+
+[OSCP](https://www.offensive-security.com/pwk-oscp/) (2021) `>` [GWAPT](https://www.giac.org/certification/web-application-penetration-tester-gwapt) (2021) `>` [OSCE](https://www.offensive-security.com/ctp-osce/) (2022) `>` [GXPN](https://www.giac.org/certification/exploit-researcher-advanced-penetration-tester-gxpn) (2022) [GREM](https://www.giac.org/certification/reverse-engineering-malware-grem) (2022) `>` [OSEE](https://www.offensive-security.com/awe-osee/) (2023)
+
+
 > 
 -----------
 ### Milestones
