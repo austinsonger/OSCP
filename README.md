@@ -71,6 +71,10 @@ Taking OSCP in **July 2021**.
 ### July
 > To Be Announced
 
+#### OSCP Exam - July 31, 2021
+
+
+
 
 <!--
 ### [Command Line and Tools]()
