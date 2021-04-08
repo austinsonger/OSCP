@@ -8,7 +8,7 @@
 **Certifications Roadmap for the Rest of my career**
 
 
-[OSCP](https://www.offensive-security.com/pwk-oscp/) (2021) `>` [GWAPT](https://www.giac.org/certification/web-application-penetration-tester-gwapt) (2021) `>` [OSCE](https://www.offensive-security.com/ctp-osce/) (2022) `>` [GXPN](https://www.giac.org/certification/exploit-researcher-advanced-penetration-tester-gxpn) (2022) [GREM](https://www.giac.org/certification/reverse-engineering-malware-grem) (2022) `>` [OSEE](https://www.offensive-security.com/awe-osee/) (2023)
+[OSCP](https://www.offensive-security.com/pwk-oscp/) (2021) `>` [GWAPT](https://www.giac.org/certification/web-application-penetration-tester-gwapt) (2021) `>` [OSCE](https://www.offensive-security.com/ctp-osce/) (2022) `>` [GXPN](https://www.giac.org/certification/exploit-researcher-advanced-penetration-tester-gxpn) (2022) `>` [GREM](https://www.giac.org/certification/reverse-engineering-malware-grem) (2022) `>` [OSEE](https://www.offensive-security.com/awe-osee/) (2023)
 
 
 > 
