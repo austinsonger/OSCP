@@ -66,6 +66,7 @@ Taking OSCP in **July 2021**.
 
 
 ### June
+**When I start the OSCP Course**
 > To Be Announced
 
 ### July
