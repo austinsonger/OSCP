@@ -3,7 +3,7 @@
 > It took me a little bit working in the cyber security to realize that Ec-council and CompTIA certifications are pointless in the grand scale of all cyber security certifications. And realized that the only certifications that are worth a damn are [GIAC certifications](https://www.giac.org/) and [Offensive Securtity Certifications](https://www.offensive-security.com/courses-and-certifications/). The only reason a person should work to achieve **CompTIA** or **Ec-council** is if they have aspirations of working for the federal government, been there, done that.
 > 
 -----------
-> I've made this so it could be used as others for trackking their progress.
+> I've made this so it could be used as others for tracking their progress.
 
 **Certifications Roadmap for the Rest of my career**
 
