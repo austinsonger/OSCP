@@ -32,36 +32,79 @@ Taking OSCP in **July 2021**.
 
 ### April
 
-#### 10th thru 11th
+#### 12th thru 18th
 - 4 Machines
-  - DC 9
-  - Digitalworld.local (Development)
-  - Digitalworld.local (Mercy v2)
-  - Digitalworld.local (JOY)
+  - LAMPSecurity: CTF 8
+  - Xerxes:1
+  - DE-ICE:S1.140
+  - Hackademic-RTB2
 
-#### 17th thru 18th
+#### 19th thru 25th
 - 4 Machines
-  - Prime 1
-  - Symfonos 1
-  - Symfonos 2
-  - Symfonos 3
+  - Tr0ll 2
+  - Skytower
+  - PwnLab
+  - Mr. Robot
 
-#### 24th thru 25th
+
+#### April 26th thru May 2nd
 - 4 Machines
-  - Symfonos 4
-  - Symfonos 5.2
-  - Misdirection 1
-  - Sar 1
+  - Droopy
+  - Sydney
+  - Skydog
+  - Tommyboy
+
 
 ### May
 
-#### 1st thru 2nd
-- 4 Machines
-  - Djinn 1
-  - EVM 1
-  - DerpNStink 1
-  - RickdiculouslyEasy 1
+####  May 3rd thru May 9th
 
+- 4 Machines
+  - Fristileaks
+  - Spyder Sec
+  - Acid
+  - Lord of the Root
+
+#### May 10th thru May 16th
+
+- 4 Machines
+  - Acid Reloaded
+  - Hackday Albania
+  - Fortress
+  - USV
+
+<!--
+DE-ICE:S1.130
+Breach 1.0
+Breach 2.1
+Billy Madison
+Necromancer
+Cyberry:1
+BSides London 2017
+Game of Thrones
+Trollcave
+The Gemini inc
+PinkyPalace
+Violator
+Bulldog 2
+WinterMute:1
+/dev/random:K2
+Gemini inc:2
+Moonranker:1
+Replay:1
+Torment
+6 Days
+IMF
+thewall
+ROP Primer:1.0.1
+USV:2017
+C0m80
+Teuchter
+Durian:1
+Prime:1
+View2aKill
+
+-->
 
 
 ### June
