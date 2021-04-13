@@ -36,7 +36,7 @@ Taking OSCP in **July 2021**.
 
 #### 12th thru 18th
 - 4 Machines
-  - LAMPSecurity: CTF 8
+  - [LAMPSecurity: CTF 8](/Vulnhub-WriteUps/2021-April/12-18/lampctf8.md)
   - Xerxes:1
   - DE-ICE:S1.140
   - Hackademic-RTB2
