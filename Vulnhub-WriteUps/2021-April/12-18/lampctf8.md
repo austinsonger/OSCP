@@ -485,7 +485,7 @@ And right off the bat I see a flag.
 
 `#flag#550e1bafe077ff0b0b67f4e32f29d751`
 
-![image-20210412190906929](img/image-20210412190906929.png)
+![image-20210412190906929](img/image-20210412190906929.png) 
 
 
 
