@@ -19,7 +19,7 @@ IN-PROCESS
 sudo netdiscover
 ```
 
-![image-20210412182946569](/img/image-20210412182946569.png)
+![image-20210412182946569](img/image-20210412182946569.png)
 
 
 
@@ -31,7 +31,7 @@ sudo netdiscover
 sudo nmap -A -sN -v -Pn -p- 10.0.2.6
 ```
 
-![image-20210412184613227](/img/image-20210412184613227.png)
+![image-20210412184613227](img/image-20210412184613227.png)
 
 
 
@@ -389,21 +389,21 @@ Nmap done: 1 IP address (1 host up) scanned in 190.79 seconds
 sudo nikto -h 10.0.2.6
 ```
 
-![image-20210412183210100](/img/image-20210412183210100.png)
+![image-20210412183210100](img/image-20210412183210100.png)
 
-![image-20210412183319982](/img/image-20210412183319982.png)
+![image-20210412183319982](img/image-20210412183319982.png)
 
-![image-20210412184350050](/img/image-20210412184350050.png)
-
-
-
-![image-20210412190315145](/img/image-20210412190315145.png)
+![image-20210412184350050](img/image-20210412184350050.png)
 
 
 
+![image-20210412190315145](img/image-20210412190315145.png)
 
 
-![image-20210412190513886](/img/image-20210412190513886.png)
+
+
+
+![image-20210412190513886](img/image-20210412190513886.png)
 
 **NOTE**:  Write this information as note, for later.
 
@@ -411,7 +411,7 @@ sudo nikto -h 10.0.2.6
 
 
 
-![image-20210412191448848](/img/image-20210412191448848.png)
+![image-20210412191448848](img/image-20210412191448848.png)
 
 **NOTE**:  Write this information as note, for later.
 
@@ -433,11 +433,11 @@ dirb http://10.0.2.6/content -w common.txt
 
 
 
-![image-20210412202311974](/img/image-20210412202311974.png)
+![image-20210412202311974](img/image-20210412202311974.png)
 
 
 
-![image-20210412202359272](/img/image-20210412202359272.png)
+![image-20210412202359272](img/image-20210412202359272.png)
 
 
 
@@ -459,7 +459,7 @@ dirb http://10.0.2.6/content -w common.txt
 
 #### This is the time that I decided to check the source of this page.
 
-![image-20210412190117553](/img/image-20210412190117553.png)
+![image-20210412190117553](img/image-20210412190117553.png)
 
 
 
@@ -471,7 +471,7 @@ dirb http://10.0.2.6/content -w common.txt
 
 
 
-![image-20210412194449255](/img/image-20210412194449255.png)
+![image-20210412194449255](img/image-20210412194449255.png)
 
 > 
 
@@ -485,7 +485,7 @@ And right off the bat I see a flag.
 
 `#flag#550e1bafe077ff0b0b67f4e32f29d751`
 
-![image-20210412190906929](/img/image-20210412190906929.png)
+![image-20210412190906929](img/image-20210412190906929.png)
 
 
 
@@ -509,7 +509,7 @@ http://10.0.2.6/phpinfo.php
 
 
 
-![image-20210412191126745](/img/image-20210412191126745.png)
+![image-20210412191126745](img/image-20210412191126745.png)
 
 
 
@@ -525,7 +525,7 @@ http://10.0.2.6/phpinfo.php
 
 
 
-![image-20210412202624030](/img/image-20210412202624030.png)
+![image-20210412202624030](img/image-20210412202624030.png)
 
 
 
@@ -533,7 +533,7 @@ http://10.0.2.6/phpinfo.php
 
 #### Create Logon
 
-![image-20210412202759046](/img/image-20210412202759046.png)
+![image-20210412202759046](img/image-20210412202759046.png)
 
 
 
