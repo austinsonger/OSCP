@@ -75,15 +75,23 @@ Taking OSCP in **July 2021**.
   - Fortress
   - USV
 
+#### May 17th thru May 23
+- 4 Machines
+  - DE-ICE:S1.130
+  - Breach 1.0
+  - Breach 2.1
+  - Billy Madison
+
+
+#### May 24 thru May 30
+- 4 Machines
+  - Necromancer
+  - Cyberry:1
+  - BSides London 2017
+  - Game of Thrones
+
+
 <!--
-DE-ICE:S1.130
-Breach 1.0
-Breach 2.1
-Billy Madison
-Necromancer
-Cyberry:1
-BSides London 2017
-Game of Thrones
 Trollcave
 The Gemini inc
 PinkyPalace
@@ -111,7 +119,20 @@ View2aKill
 
 ### June
 **When I start the OSCP Course**
-> To Be Announced
+
+#### First Week of June 
+- Teuchter
+
+#### Second Week of June 
+- Durian:1
+
+#### Third Week of June 
+- Prime:1
+
+#### Forth Week of June 
+- View2aKill
+
+
 
 ### July
 > To Be Announced
