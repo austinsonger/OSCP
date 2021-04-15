@@ -452,3 +452,240 @@ HTML report saved in: report/192.168.56.107.html
 
 ```
 
+##### Notes I take from these results
+
+**Login**
+```
+| font color="green">Password
+| input name="password" type="text" id="password">
+| strong>Member Login 
+```
+> This initially tells me that I may need to perform some type of injections of some kind.
+
+
+
+- Web Server Version
+```
+80/tcp  open     http    Apache httpd 2.2.14 ((Ubuntu))
+| | http-methods: 
+| |_  Supported Methods: GET HEAD POST OPTIONS
+| |_http-server-header: Apache/2.2.14 (Ubuntu)
+| |_http-title: Hackademic.RTB2
+```
+- This allows to see if there are any vulnerabilities for this specific version of Apache httpd
+
+- Operating System
+```
+| Running: Linux 2.6.X
+| OS CPE: cpe:/o:linux:linux_kernel:2.6
+| OS details: Linux 2.6.17 - 2.6.36
+```
+
+- Services and Protols
+
+```
+| 21/tcp   open  ftp         vsftpd 2.0.5
+| | ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| |_drwxr-xr-x    2 0        0            4096 Jun 05  2013 pub
+| | ftp-syst: 
+| |   STAT: 230
+| |_Login successful.
+```
+
+
+```
+| 22/tcp   open  ssh         OpenSSH 4.3 (protocol 2.0)
+| | ssh-hostkey: 
+| |   1024 5e:ca:64:f0:7f:d2:1a:a2:86:c6:1f:c2:2a:b3:6b:27 (DSA)
+| |_  2048 a3:39:2d:9f:66:96:0d:82:ad:52:1f:a1:dc:b1:f1:54 (RSA)
+```
+
+
+```
+| 25/tcp   open  smtp        Sendmail
+| | smtp-commands: localhost.localdomain Hello [192.168.56.106], pleased to meet you, ENHANCEDSTATUSCODES, PIPELINING, EXPN, VERB, 8BITMIME, SIZE, DSN, ETRN, DELIVERBY, HELP, 
+| |_ 2.0.0 This is sendmail 2.0.0 Topics: 2.0.0 HELO EHLO MAIL RCPT DATA 2.0.0 RSET NOOP QUIT HELP VRFY 2.0.0 EXPN VERB ETRN DSN AUTH 2.0.0 STARTTLS 2.0.0 For more info use "HELP <topic>". 2.0.0 To report bugs in the implementation see 2.0.0 http://www.sendmail.org/email-addresses.html 2.0.0 For local information send email to Postmaster at your site. 2.0.0 End of HELP info 
+```
+
+
+```
+| 80/tcp   open  http        Apache httpd 2.2.3 ((CentOS))
+| |_http-favicon: Drupal CMS
+| | http-git: 
+| |   192.168.56.104:80/.git/
+| |     Git repository found!
+| |     Repository description: Unnamed repository; edit this file 'description' to name the...
+| |_    Last commit message: initial commit 
+| | http-methods: 
+| |_  Supported Methods: GET HEAD POST OPTIONS
+| | http-robots.txt: 36 disallowed entries (15 shown)
+| | /includes/ /misc/ /modules/ /profiles/ /scripts/ 
+| | /sites/ /themes/ /CHANGELOG.txt /cron.php /INSTALL.mysql.txt 
+| | /INSTALL.pgsql.txt /install.php /INSTALL.txt /LICENSE.txt 
+| |_/MAINTAINERS.txt
+| |_http-server-header: Apache/2.2.3 (CentOS)
+```
+
+
+```
+| 110/tcp  open  pop3        Dovecot pop3d
+| |_pop3-capabilities: PIPELINING STLS RESP-CODES USER TOP SASL(PLAIN) CAPA UIDL
+| |_ssl-date: 2021-04-14T16:17:38+00:00; -5h45m58s from scanner time.
+```
+
+
+```
+| 111/tcp  open  rpcbind     2 (RPC #100000)
+```
+
+
+```
+| 139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+```
+
+```
+| 143/tcp  open  imap        Dovecot imapd
+| |_ssl-date: 2021-04-14T16:17:38+00:00; -5h45m58s from scanner time.
+```
+
+
+```
+| 443/tcp  open  ssl/https?
+| |_ssl-date: 2021-04-14T16:17:35+00:00; -5h45m58s from scanner time.
+```
+
+
+
+```
+| 445/tcp  open  netbios-ssn Samba smbd 3.0.33-3.7.el5 (workgroup: WORKGROUP)
+```
+
+```
+| 993/tcp  open  ssl/imaps?
+| |_ssl-date: 2021-04-14T16:17:35+00:00; -5h45m58s from scanner time.
+| | sslv2: 
+| |   SSLv2 supported
+| |   ciphers: 
+| |     SSL2_RC4_128_WITH_MD5
+| |     SSL2_DES_192_EDE3_CBC_WITH_MD5
+| |     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+| |     SSL2_RC2_128_CBC_WITH_MD5
+| |_    SSL2_RC4_128_EXPORT40_WITH_MD5
+```
+
+
+
+```
+| 995/tcp  open  ssl/pop3s?
+| |_ssl-date: 2021-04-14T16:17:35+00:00; -5h45m58s from scanner time.
+```
+
+
+```
+| 3306/tcp open  mysql       MySQL (unauthorized)
+```
+
+
+```
+| 5801/tcp open  vnc-http    RealVNC 4.0 (resolution: 400x250; VNC TCP port: 5901)
+| | http-methods: 
+| |_  Supported Methods: GET HEAD
+| |_http-server-header: RealVNC/4.0
+| |_http-title: VNC viewer for Java
+```
+
+
+```
+| 5802/tcp open  vnc-http    RealVNC 4.0 (resolution: 400x250; VNC TCP port: 5902)
+| | http-methods: 
+| |_  Supported Methods: GET HEAD
+| |_http-server-header: RealVNC/4.0
+| |_http-title: VNC viewer for Java
+```
+
+
+
+```
+| 5901/tcp open  vnc         VNC (protocol 3.8)
+```
+
+
+```
+| 5902/tcp open  vnc         VNC (protocol 3.8)
+```
+
+
+```
+| 5903/tcp open  vnc         VNC (protocol 3.8)
+```
+
+
+```
+| 5904/tcp open  vnc         VNC (protocol 3.8)
+```
+
+
+```
+| | nbstat: NetBIOS name: LAMPSEC, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| | Names:
+| |   LAMPSEC<00>          Flags: <unique><active>
+| |   LAMPSEC<03>          Flags: <unique><active>
+| |   LAMPSEC<20>          Flags: <unique><active>
+| |   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+| |   WORKGROUP<1d>        Flags: <unique><active>
+| |   WORKGROUP<1e>        Flags: <group><active>
+| |_  WORKGROUP<00>        Flags: <group><active>
+```
+
+
+
+```
+| | smb-os-discovery: 
+| |   OS: Unix (Samba 3.0.33-3.7.el5)
+| |   Computer name: localhost
+| |   NetBIOS computer name: 
+| |   Domain name: localdomain
+| |   FQDN: localhost.localdomain
+| |_  System time: 2021-04-14T12:17:14-04:00
+| | smb-security-mode: 
+| |   account_used: guest
+| |   authentication_level: user
+| |   challenge_response: supported
+| |_  message_signing: disabled (dangerous, but default)
+| |_smb2-time: Protocol negotiation failed (SMB2)
+```
+
+
+
+
+
+
+
+
+
+
+- phpmyadmin
+```
+| [+] CODE: 200 URL: http://192.168.56.107/phpmyadmin/
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+> I took a break here and I restarted the VM so the IP address changed
+
+
+`http://192.168.1.145`
+
+
+
+
