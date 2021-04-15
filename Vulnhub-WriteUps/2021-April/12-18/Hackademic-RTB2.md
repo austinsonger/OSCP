@@ -1,4 +1,5 @@
 
+> **FYI** - The IP Address for the vulnerable machine will change, this is just due to times when I'm taking a break and I'm working on multiple machines at one time, but I'm only gathering notes for one machine at a time.
 
 
 
