@@ -36,7 +36,6 @@ Taking OSCP in **July 2021**.
 
 #### 12th thru 18th
 - 4 Machines
-  - [LAMPSecurity: CTF 8](/Vulnhub-WriteUps/2021-April/12-18/lampctf8.md) - NOT FINISHED
   - [Xerxes:1](/Vulnhub-WriteUps/2021-April/12-18/Xerxes-1.md) - NOT FINISHED
   - [DE-ICE:S1.140](/Vulnhub-WriteUps/2021-April/12-18/DE-ICE-S1-140.md) - NOT FINISHED
   - [Hackademic-RTB2](/Vulnhub-WriteUps/2021-April/12-18/Hackademic-RTB2.md) - NOT FINISHED
