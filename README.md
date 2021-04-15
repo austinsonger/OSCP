@@ -35,9 +35,9 @@ Taking OSCP in **July 2021**.
 ### April
 
 #### 12th thru 18th
-- 4 Machines
-  - [Xerxes:1](/Vulnhub-WriteUps/2021-April/12-18/Xerxes-1.md) - NOT FINISHED
-  - [DE-ICE:S1.140](/Vulnhub-WriteUps/2021-April/12-18/DE-ICE-S1-140.md) - NOT FINISHED
+- 3 Machines
+  - [Xerxes:1]<!--(/Vulnhub-WriteUps/2021-April/12-18/Xerxes-1.md)--> 
+  - [DE-ICE:S1.140]<!--(/Vulnhub-WriteUps/2021-April/12-18/DE-ICE-S1-140.md)-->
   - [Hackademic-RTB2](/Vulnhub-WriteUps/2021-April/12-18/Hackademic-RTB2.md) - NOT FINISHED
 
 #### 19th thru 25th
