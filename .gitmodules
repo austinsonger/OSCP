@@ -4,3 +4,18 @@
 [submodule "08. Tools/scanning/NetScanCLI"]
 	path = 08. Tools/scanning/NetScanCLI
 	url = https://github.com/d4t4s3c/NetScanCLI.git
+[submodule "08. Tools/scanning/NetScan"]
+	path = 08. Tools/scanning/NetScan
+	url = https://github.com/d4t4s3c/NetScan.git
+[submodule "08. Tools/fuzzing/LFI-FUZZ"]
+	path = 08. Tools/fuzzing/LFI-FUZZ
+	url = https://github.com/d4t4s3c/LFI-FUZZ.git
+[submodule "08. Tools/exploiting/CVE-Specific/Win7Blue"]
+	path = 08. Tools/exploiting/CVE-Specific/Win7Blue
+	url = https://github.com/d4t4s3c/Win7Blue.git
+[submodule "06. Scripts/Setup-Scripts/DebianToolkit"]
+	path = 06. Scripts/Setup-Scripts/DebianToolkit
+	url = https://github.com/d4t4s3c/DebianToolkit.git
+[submodule "08. Tools/privilege-escalation/linux/CPULimit"]
+	path = 08. Tools/privilege-escalation/linux/CPULimit
+	url = https://github.com/d4t4s3c/CPULimit.git
