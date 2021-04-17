@@ -19,3 +19,6 @@
 [submodule "08. Tools/privilege-escalation/linux/CPULimit"]
 	path = 08. Tools/privilege-escalation/linux/CPULimit
 	url = https://github.com/d4t4s3c/CPULimit.git
+[submodule "08. Tools/scanning/nmapAutomator"]
+	path = 08. Tools/scanning/nmapAutomator
+	url = https://github.com/21y4d/nmapAutomator.git
