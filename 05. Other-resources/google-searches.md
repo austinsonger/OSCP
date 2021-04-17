@@ -1,12 +1,6 @@
 
 # Google Search Commands
 
-## https://github.com/six2dez/degoogle_hunter
-degoogle_hunter.sh company.com
-
-## Google dorks helper
-https://dorks.faisalahmed.me/
-
 ## Code share sites
 site:http://ideone.com | site:http://codebeautify.org | site:http://codeshare.io | site:http://codepen.io | site:http://repl.it | site:http://jsfiddle.net "company"
 ## GitLab/GitHub/Bitbucket
