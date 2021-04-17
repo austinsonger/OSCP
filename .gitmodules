@@ -1,0 +1,3 @@
+[submodule "08. Tools/exploiting/SMBploit"]
+	path = 08. Tools/exploiting/SMBploit
+	url = https://github.com/d4t4s3c/SMBploit.git
