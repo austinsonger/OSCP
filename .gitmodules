@@ -22,3 +22,24 @@
 [submodule "08. Tools/scanning/nmapAutomator"]
 	path = 08. Tools/scanning/nmapAutomator
 	url = https://github.com/21y4d/nmapAutomator.git
+[submodule "08. Tools/exploiting/routersploit"]
+	path = 08. Tools/exploiting/routersploit
+	url = https://github.com/threat9/routersploit.git
+[submodule "08. Tools/exploiting/injection/commix"]
+	path = 08. Tools/exploiting/injection/commix
+	url = https://github.com/commixproject/commix.git
+[submodule "08. Tools/kalitorify"]
+	path = 08. Tools/kalitorify
+	url = https://github.com/brainfuckSec/kalitorify
+[submodule "08. Tools/c2c/trevorc2"]
+	path = 08. Tools/c2c/trevorc2
+	url = https://github.com/trustedsec/trevorc2.git
+[submodule "08. Tools/exploiting/CVE-Specific/Windows-Exploit-Suggester"]
+	path = 08. Tools/exploiting/CVE-Specific/Windows-Exploit-Suggester
+	url = https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git
+[submodule "08. Tools/scanning/wapiti"]
+	path = 08. Tools/scanning/wapiti
+	url = https://github.com/wapiti-scanner/wapiti.git
+[submodule "08. Tools/scanning/Sn1per"]
+	path = 08. Tools/scanning/Sn1per
+	url = https://github.com/1N3/Sn1per.git
