@@ -1,6 +1,4 @@
-
-
-# Information Gathering and Recon
+> **FYI**: I will need to clean up this writeup.
 
 
 ### Netdiscover
