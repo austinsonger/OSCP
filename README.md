@@ -36,13 +36,13 @@ Taking OSCP in **July 2021**.
 
 #### 12th thru 18th
 - 3 Machines
-  - [Xerxes:1]<!--(/Vulnhub-WriteUps/2021-April/12-18/Xerxes-1.md)--> 
-  - [DE-ICE:S1.140]<!--(/Vulnhub-WriteUps/2021-April/12-18/DE-ICE-S1-140.md)-->
-  - [Hackademic-RTB2](/Vulnhub-WriteUps/2021-April/12-18/Hackademic-RTB2.md) - NOT FINISHED
+  - [Tr0ll 2](/Vulnhub-WriteUps/2021-April/12-18/Tr0ll2.md)
+
 
 #### 19th thru 25th
-- 4 Machines
-  - Tr0ll 2
+- 6 Machines
+  - Hackademic-RTB2<!--(/Vulnhub-WriteUps/2021-April/12-18/Hackademic-RTB2.md) - NOT FINISHED-->
+  - Xerxes:1<!--(/Vulnhub-WriteUps/2021-April/12-18/Xerxes-1.md)--> 
   - Skytower
   - PwnLab
   - Mr. Robot
