@@ -42,7 +42,7 @@ Taking OSCP in **July 2021**.
 
 #### 12th thru 18th
 - 1 Machines
-  - [Tr0ll 2](/Vulnhub-WriteUps/2021-April/12-18/Tr0ll2.md)
+  - [Tr0ll 2](/02.%20Vulnhub-WriteUps/2021-April/12-18/Tr0ll2.md)
 
 
 #### 19th thru 25th
