@@ -123,7 +123,6 @@ View2aKill
 
 
 ### June
-**When I start the OSCP Course**
 
 #### First Week of June 
 - Teuchter
