@@ -39,107 +39,18 @@ Taking OSCP in **July 2021**.
 ## Schedule
 
 ### April
-
-#### 12th thru 18th
-- 1 Machines
   - [Tr0ll 2](/02.%20Vulnhub-WriteUps/2021-April/12-18/Tr0ll2.md)
-
-
-#### 19th thru 25th
-- 5 Machines
-  - Hackademic-RTB2<!--(/Vulnhub-WriteUps/2021-April/12-18/Hackademic-RTB2.md) - NOT FINISHED-->
-  - Xerxes:1<!--(/Vulnhub-WriteUps/2021-April/12-18/Xerxes-1.md)--> 
-  - Skytower
-  - PwnLab
-  - Mr. Robot
-
-
-#### April 26th thru May 2nd
-- 4 Machines
-  - Droopy
-  - Sydney
-  - Skydog
-  - Tommyboy
 
 
 ### May
 
-####  May 3rd thru May 9th
-
-- 4 Machines
-  - Fristileaks
-  - Spyder Sec
-  - Acid
-  - Lord of the Root
-
-#### May 10th thru May 16th
-
-- 4 Machines
-  - Acid Reloaded
-  - Hackday Albania
-  - Fortress
-  - USV
-
-#### May 17th thru May 23
-- 4 Machines
-  - DE-ICE:S1.130
-  - Breach 1.0
-  - Breach 2.1
-  - Billy Madison
-
-
-#### May 24 thru May 30
-- 4 Machines
-  - Necromancer
-  - Cyberry:1
-  - BSides London 2017
-  - Game of Thrones
-
-
-<!--
-Trollcave
-The Gemini inc
-PinkyPalace
-Violator
-Bulldog 2
-WinterMute:1
-/dev/random:K2
-Gemini inc:2
-Moonranker:1
-Replay:1
-Torment
-6 Days
-IMF
-thewall
-ROP Primer:1.0.1
-USV:2017
-C0m80
-Teuchter
-Durian:1
-Prime:1
-View2aKill
-
--->
-
 
 ### June
-
-#### First Week of June 
-- Teuchter
-
-#### Second Week of June 
-- Durian:1
-
-#### Third Week of June 
-- Prime:1
-
-#### Forth Week of June 
-- View2aKill
 
 
 
 ### July
-> To Be Announced
+
 
 #### OSCP Exam - July 31, 2021
 
