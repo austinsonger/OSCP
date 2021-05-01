@@ -44,12 +44,58 @@ Taking OSCP in **July 2021**.
 
 ### May
 
+> Hack The Box
+
+| Box Name  | Operating System | Completed | Date Completed |
+| --------- | ---------------- | --------- | -------------- |
+| Lame      |                  |           |                |
+| brainfuck |                  |           |                |
+| shocker   |                  |           |                |
+| bashed    |                  |           |                |
+| nibbles   |                  |           |                |
+| legacy    |                  |           |                |
+| Blue      |                  |           |                |
+| Devel     |                  |           |                |
+| Optimum   |                  |           |                |
+| Bastard   |                  |           |                |
+
 
 ### June
 
+> Hack The Box
+
+
+| Box Name     | Operating System | Completed | Date Completed |
+| ------------ | ---------------- | --------- | -------------- |
+| Doctor       | Linux            |           |                |
+| SneakyMailer | Linux            |           |                |
+| Passage      | Linux            |           |                |
+| Luanne       | Linux            |           |                |
+| Time         | Linux            |           |                |
+| Active       | Windows          |           |                |
+| Remote       | Windows          |           |                |
+| Fuse         | Windows          |           |                |
+| Omni         | Windows          |           |                |
+| Worker       | Windows          |           |                |
 
 
 ### July
+
+> Hack The Box
+
+
+| Box Name   | Operating System | Completed | Date Completed |
+| ---------- | ---------------- | --------- | -------------- |
+| Jeeves     | Windows          |           |                |
+| Bart       | Windows          |           |                |
+| Tally      | Windows          |           |                |
+| Kotarak    | Linux            |           |                |
+| falafel    | Linux            |           |                |
+| Sauna      | Windows          |           |                |
+| Cascade    | Windows          |           |                |
+| Querier    | Windows          |           |                |
+| Quick      | Linux            |           |                |
+| BlackField | Windows          |           |                |
 
 
 #### OSCP Exam - July 31, 2021
