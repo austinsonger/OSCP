@@ -46,19 +46,19 @@ Taking OSCP in **July 2021**.
 
 > Hack The Box
 
-| Box Name  | Operating System | Completed | Date Completed |
-| --------- | ---------------- | --------- | -------------- |
-| Blue      |                  |:white_check_mark:|2021-May-03|
-| Lame      |                  |:white_check_mark:|2021-May-03|
-| brainfuck |                  |           |                |
-| shocker   |                  |           |                |
-| bashed    |                  |           |                |
-| nibbles   |                  |           |                |
-| legacy    |                  |           |                |
-| Blue      |                  |           |                |
-| Devel     |                  |           |                |
-| Optimum   |                  |           |                |
-| Bastard   |                  |           |                |
+| Box Name  | Operating System | Completed | Date Completed | Link To Writeup|
+| --------- | ---------------- | --------- | -------------- |-------------- |
+| Blue      |                  |:white_check_mark:|2021-May-03| |
+| Lame      |                  |:white_check_mark:|2021-May-03| |
+| brainfuck |                  |           |                | |
+| shocker   |                  |           |                | |
+| bashed    |                  |           |                | |
+| nibbles   |                  |           |                | |
+| legacy    |                  |           |                | |
+| Blue      |                  |           |                | |
+| Devel     |                  |           |                | |
+| Optimum   |                  |           |                | |
+| Bastard   |                  |           |                | |
 
 
 ### June
