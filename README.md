@@ -48,7 +48,8 @@ Taking OSCP in **July 2021**.
 
 | Box Name  | Operating System | Completed | Date Completed |
 | --------- | ---------------- | --------- | -------------- |
-| Lame      |                  |           |                |
+| Blue      |                  |:white_check_mark:|2021-May-03|
+| Lame      |                  |:white_check_mark:|2021-May-03|
 | brainfuck |                  |           |                |
 | shocker   |                  |           |                |
 | bashed    |                  |           |                |
