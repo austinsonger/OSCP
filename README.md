@@ -50,6 +50,9 @@ Taking OSCP in **July 2021**.
 | --------- | ---------------- | --------- | -------------- |-------------- |
 | Blue      |                  |:white_check_mark:|2021-May-03| |
 | Lame      |                  |:white_check_mark:|2021-May-03| |
+
+
+<!--
 | brainfuck |                  |           |                | |
 | shocker   |                  |           |                | |
 | bashed    |                  |           |                | |
@@ -59,6 +62,7 @@ Taking OSCP in **July 2021**.
 | Devel     |                  |           |                | |
 | Optimum   |                  |           |                | |
 | Bastard   |                  |           |                | |
+-->
 
 
 ### June
