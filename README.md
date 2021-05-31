@@ -48,21 +48,11 @@ Taking OSCP in **July 2021**.
 
 | Box Name  | Operating System | Completed | Date Completed | Link To Writeup|
 | --------- | ---------------- | --------- | -------------- |-------------- |
-| Blue      |                  |:white_check_mark:|2021-May-03| |
-| Lame      |                  |:white_check_mark:|2021-May-03| |
+| Blue      |                  |:white_check_mark:|2021-May-03|Coming soon|
+| Lame      |                  |:white_check_mark:|2021-May-03|Coming soon|
 
 
-<!--
-| brainfuck |                  |           |                | |
-| shocker   |                  |           |                | |
-| bashed    |                  |           |                | |
-| nibbles   |                  |           |                | |
-| legacy    |                  |           |                | |
-| Blue      |                  |           |                | |
-| Devel     |                  |           |                | |
-| Optimum   |                  |           |                | |
-| Bastard   |                  |           |                | |
--->
+
 
 
 ### June
@@ -70,8 +60,8 @@ Taking OSCP in **July 2021**.
 > Hack The Box
 
 
-| Box Name     | Operating System | Completed | Date Completed |
-| ------------ | ---------------- | --------- | -------------- |
+| Box Name     | Operating System | Completed | Date Completed | Link To Writeup|
+| ------------ | ---------------- | --------- | -------------- |-------------- |
 | Doctor       | Linux            |           |                |
 | SneakyMailer | Linux            |           |                |
 | Passage      | Linux            |           |                |
@@ -89,22 +79,36 @@ Taking OSCP in **July 2021**.
 > Hack The Box
 
 
-| Box Name   | Operating System | Completed | Date Completed |
-| ---------- | ---------------- | --------- | -------------- |
-| Jeeves     | Windows          |           |                |
-| Bart       | Windows          |           |                |
-| Tally      | Windows          |           |                |
-| Kotarak    | Linux            |           |                |
-| falafel    | Linux            |           |                |
-| Sauna      | Windows          |           |                |
-| Cascade    | Windows          |           |                |
-| Querier    | Windows          |           |                |
-| Quick      | Linux            |           |                |
-| BlackField | Windows          |           |                |
+| Box Name   | Operating System | Completed | Date Completed | Link To Writeup|
+| ---------- | ---------------- | --------- | -------------- |-------------- |
+| Jeeves     | Windows          |           |                | |
+| Bart       | Windows          |           |                | |
+| Tally      | Windows          |           |                | |
+| Kotarak    | Linux            |           |                | |
+| falafel    | Linux            |           |                | |
+| Sauna      | Windows          |           |                | |
+| Cascade    | Windows          |           |                | |
+| Querier    | Windows          |           |                | |
+| Quick      | Linux            |           |                | |
+| BlackField | Windows          |           |                | |
 
 
-#### OSCP Exam - July 31, 2021
+# OSCP Exam - July 31, 2021
 
+
+### Extra Boxes If Time
+
+| Box Name   | Operating System | Completed | Date Completed | Link To Writeup|
+| ---------- | ---------------- | --------- | -------------- |-------------- |
+| brainfuck |                  |           |                 | |
+| shocker   |                  |           |                 | |
+| bashed    |                  |           |                 | |
+| nibbles   |                  |           |                 | |
+| legacy    |                  |           |                 | |
+| Blue      |                  |           |                 | |
+| Devel     |                  |           |                 | |
+| Optimum   |                  |           |                 | |
+| Bastard   |                  |           |                 | |
 
 
 
