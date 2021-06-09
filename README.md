@@ -11,7 +11,6 @@
 
 [OSCP](https://www.offensive-security.com/pwk-oscp/) (2021) `>` [GWAPT](https://www.giac.org/certification/web-application-penetration-tester-gwapt) (2021) `>` [OSCE](https://www.offensive-security.com/ctp-osce/) (2022) `>` [GXPN](https://www.giac.org/certification/exploit-researcher-advanced-penetration-tester-gxpn) (2022) `>` [GREM](https://www.giac.org/certification/reverse-engineering-malware-grem) (2022) `>` [OSEE](https://www.offensive-security.com/awe-osee/) (2023)
 
-
 > 
 
 <!--
@@ -31,7 +30,7 @@
 
 
 -----------
-Taking OSCP in **July 2021**.
+Taking OSCP in **August 2021**.
 
 - I will be using github [project](https://github.com/austinsonger/OSCP-Prep/projects/1) to track my process as I prepare for the OSCP.
 - There is a [issue](https://github.com/austinsonger/OSCP-Prep/issues) created for every subsection for all of the sections below.
@@ -93,10 +92,10 @@ Taking OSCP in **July 2021**.
 | BlackField | Windows          |           |                | |
 
 
-# OSCP Exam - July 31, 2021
 
 
-### Extra Boxes If Time
+
+### August
 
 | Box Name   | Operating System | Completed | Date Completed | Link To Writeup|
 | ---------- | ---------------- | --------- | -------------- |-------------- |
@@ -111,6 +110,7 @@ Taking OSCP in **July 2021**.
 | Bastard   |                  |           |                 | |
 
 
+# OSCP Exam - August 31, 2021
 
 <!--
 ### [Command Line and Tools]()
