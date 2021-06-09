@@ -1,3 +1,5 @@
+![](https://i.imgur.com/qWNZnqk.png)
+
 # Offensive Security Certified Professional (OSCP) Journey
 -----------
 > It took me a little bit working in the cyber security to realize that Ec-council and CompTIA certifications are pointless in the grand scale of all cyber security certifications. And realized that the only certifications that are worth a damn are [GIAC certifications](https://www.giac.org/) and [Offensive Securtity Certifications](https://www.offensive-security.com/courses-and-certifications/). 
