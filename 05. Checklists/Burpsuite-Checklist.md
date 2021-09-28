@@ -1,4 +1,4 @@
-```text
+
 - If Render Page crash:
 sudo sysctl -w kernel.unprivileged_userns_clone=1
 
@@ -87,7 +87,7 @@ cat project.burp | strings | tok | sort -u > custom_wordlist.txt
 basic.py -> Set %s in the injection point and specify wordlist in script
 multipleParameters.py -> Set %s in all the injection points and specify the wordlists in script
 
-```
+
 
 ## Preferred extensions
 
