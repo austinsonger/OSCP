@@ -112,7 +112,7 @@ Taking OSCP in **March 2022**.
 | Bastard   |                  |           |                 | |
 
 
-# OSCP Exam - August 31, 2021
+# OSCP Exam - March 30, 2022
 
 <!--
 ### [Command Line and Tools]()
